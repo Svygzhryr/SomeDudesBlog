@@ -919,7 +919,7 @@ a:hover {
 }
 
 .add-post_file {
-    background: #ebebeb url("/assets/images/add-photo.svg") center no-repeat;
+    background: #ebebeb url("assets/images/add-photo.svg") center no-repeat;
 }
 
 .add-post_file input {
@@ -931,7 +931,7 @@ a:hover {
 }
 
 .add-post_send {
-    background: #3137c9 url("/assets/images/send.svg") center no-repeat;
+    background: #3137c9 url("assets/images/send.svg") center no-repeat;
     margin-left: 1.5rem;
 }
 
