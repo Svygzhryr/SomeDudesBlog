@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>The Blog</title>
+
+    
+</head>
+<body>
+
+    <div class="page">
+        <!-- Header -->
+        <header class="header">
+            <div class="header_left">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li  class="nav_item">
+                            <a class="nav_link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link has-subnav" href="">Статьи</a>
+        
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Создание сайтов
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Интернет-маркетинг
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Продвижение на видео
+                                    </a>
+                                </li>
+        
+                            </ul>
+        
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Реклама</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+                <button class="burger show-sidebar" id="sidebarToggle" type="button">
+                    <span>Открыть навигацию</span>
+                </button>
+        
+            </div>
+            <div class="header_right">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a class="nav_link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="">Выйти</a>
+                        </li>
+                    </ul>
+                </nav>
+                <form class="search" action="search.html" method="get">
+                    <input class="search_input" placeholder="Поиск по блогу" type="text">
+                </form>
+            </div>
+        </header>
+
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar_header">
+                <img src="/assets/images/sidebar_header.jpg" alt="">
+            </div>
+            <div class="sidebar_content">
+                <div class="profile">
+                    
+                    <img class="profile_avatar" src="/assets/images/profile_pic.jpg" alt="">
+        
+                    <div class="profile_header">
+                        <div class="profile_name">Павел Михайлов</div>
+                        <div class="profile_prof">блог ноунейма</div>
+                    </div>
+        
+                  
+        
+                    <ul class="social">
+                        <li class="social_item">
+                            <a class="social_link" href="#" target="_blank">
+                                <img src="/assets/images/instagram.svg">
+                            </a>
+                        </li>
+                        <li class="social_item">
+                            <a class="social_link" href="https://vk.com/uebox" target="_blank">
+                                <img src="/assets/images/vk.svg">
+                            </a>
+                        </li>
+                        <li class="social_item">
+                            <a class="social_link" href="#" target="_blank">
+                                <img src="/assets/images/pinterest.svg">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="profile_text">
+                        <p>
+                            Здесь должно было бы быть написано что-то безумно интересное и увлекательное, но так как на воображение я скуплюсь, то здесь будет какая-нибудь бессмыслица.
+                        </p>
+                    </div>
+                </div>
+        
+                <nav class="nav nav--mobile">
+                    <ul class="nav_list">
+                        <li  class="nav_item">
+                            <a class="nav_link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link has-subnav" href="">Статьи</a>
+        
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Создание сайтов
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Интернет-маркетинг
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Продвижение на видео
+                                    </a>
+                                </li>
+        
+                            </ul>
+        
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Реклама</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="#">Выйти</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+            </div>
+            <div class="sidebar_footer">
+                <a href="works.html" class="btn btn--red">Мои работы</a>
+                <button class="btn btn--blue" data-modal="contact_modal">Написать мне</button>
+            </div>
+        
+        </aside>
+
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+                
+                
+                <article class="post">
+                    <div class="post_actions">
+                        <a href="index.html">вернуться назад</a>
+                        <a href="#">поделиться 
+                            <img class="post_actions-icon" src="/assets/images/share.svg" alt="">
+                        </a>
+                    </div>
+                
+                    <div class="post_header post_header--open">
+                        <h1 class="post_title post_title--open">
+                            <a href="#">Как я сходил на frontEnd conf 2021</a>
+                        </h2>
+                        <ul class="post_data">
+                            <li class="post_data-item">
+                                <time datetime="2021-06-21">21.06.2021</time>
+                            </li>
+                            <li class="post_data-item">
+                                <a href="" class="">создание сайтов</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+                    <div class="post_content">
+                        <div class="post_text">
+                       
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac egestas nunc. Sed massa magna, dictum nec eros sed, tincidunt gravida mauris. Nulla porttitor felis risus, id rhoncus nibh volutpat sed. Quisque at sapien ligula. Quisque tellus leo, volutpat eget vestibulum suscipit, blandit at tellus. Phasellus dignissim varius turpis quis semper. Nulla nec dapibus enim. Sed eu cursus magna. In odio mauris, gravida non nisl sed, dapibus semper tortor. Duis dictum nec ex ut blandit. Ut auctor nunc id mi maximus, et tristique libero tincidunt.</p>
+                           
+                            <p>
+                                <img src="/assets/images/image.jpg" alt="">
+                             </p>
+                          
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac egestas nunc. Sed massa magna, dictum nec eros sed, tincidunt gravida mauris. Nulla porttitor felis risus, id rhoncus nibh volutpat sed. Quisque at sapien ligula. Quisque tellus leo, volutpat eget vestibulum suscipit, blandit at tellus. Phasellus dignissim varius turpis quis semper. Nulla nec dapibus enim. Sed eu cursus magna. In odio mauris, gravida non nisl sed, dapibus semper tortor. Duis dictum nec ex ut blandit. Ut auctor nunc id mi maximus, et tristique libero tincidunt. Donec convallis rhoncus metus efficitur gravida.
+                
+                                Sed quis nibh efficitur, aliquam libero vel, accumsan lectus. Curabitur id consequat tortor, et aliquam lorem. Nam tincidunt diam varius arcu molestie ullamcorper. Fusce molestie nunc sit amet mi vehicula congue. Ut varius tellus condimentum efficitur accumsan. Etiam ante nibh, sollicitudin eu accumsan volutpat, maximus vel ex. Quisque semper purus at sagittis scelerisque.
+                                
+                                Praesent mollis metus at gravida suscipit. Integer ligula magna, auctor nec magna a, posuere pulvinar leo. Fusce rutrum consectetur porta. Praesent sagittis dignissim risus sit amet blandit. Aenean interdum vestibulum nibh, ut malesuada lacus fringilla id. Vestibulum pharetra, dui lacinia pharetra condimentum, quam nisi viverra risus, quis placerat arcu sapien eget urna. Nunc euismod, neque ut pharetra consequat, erat justo feugiat tellus, ut viverra massa enim tempus lectus. Nullam aliquam venenatis massa ut accumsan. Pellentesque venenatis molestie massa finibus sodales. Aliquam erat volutpat. Praesent eu mauris odio.
+                                
+                                Duis id maximus sem. Sed non orci iaculis, ullamcorper orci quis, convallis velit. Proin nec risus et neque fermentum dignissim sed at turpis. Pellentesque dapibus nisl velit, vehicula consequat neque facilisis nec. Nam efficitur interdum velit, a aliquam nunc fringilla condimentum. Aenean aliquam et lorem in ornare. Maecenas tempor sapien eu mauris sollicitudin sodales. Mauris sed eros sit amet ipsum vehicula venenatis. Suspendisse ut auctor urna. Morbi malesuada mi in lacus rutrum vehicula. Sed faucibus est a lobortis pellentesque. Nam augue lorem, mattis in metus sed, aliquet molestie est. Vestibulum nec neque sit amet justo pulvinar lobortis vel et ante. Pellentesque in euismod quam.
+                                
+                                Nullam a justo nulla. Pellentesque placerat interdum rhoncus. In non sagittis ante, nec rutrum nibh. Donec sagittis pharetra aliquam. Aenean lacinia enim nec dui lobortis tristique. Duis ullamcorper nisl gravida risus ullamcorper, non condimentum nisl tincidunt. Ut mollis volutpat turpis eu ullamcorper. Suspendisse potenti. Morbi fringilla leo nec dolor ultricies venenatis. Morbi quis odio ante. Proin ornare ex in nisi venenatis interdum.</p>
+                
+                
+                        </div>
+                
+                        <div class="related">
+                            <h3 class="post_subtitle">Интересно почитать</h3>
+                
+                            <ul class="related_list">
+                                <li class="related_list-item">
+                                    <h4 class="related_list-title">
+                                        <a href="#">Как я сходил на FrontEnd conf 2021</a>
+                                    </h4>
+                                    <time class="related_list-date" datetime="2021-06-21 1921">21.06.2021</time>
+                                </li>
+                                <li class="related_list-item">
+                                    <h4 class="related_list-title">
+                                        <a href="#">Поход к дантисту! Что может быть страшнее?</a>
+                                    </h4>
+                                    <time class="related_list-date" datetime="2021-06-21 1921">21.06.2021</time>
+                                </li>
+                                <li class="related_list-item">
+                                    <h4 class="related_list-title">
+                                        <a href="#">Поход в лес! Основные советы от профессионального бушкрафтера</a>
+                                    </h4>
+                                    <time class="related_list-date" datetime="2021-06-21 1921">21.06.2021</time>
+                                </li>
+                                <li class="related_list-item">
+                                    <h4 class="related_list-title">
+                                        <a href="#">Священный крестовый поход. Зачем и для чего?</a>
+                                    </h4>
+                                    <time class="related_list-date" datetime="2021-06-21 1921">21.06.2021</time>
+                                </li>
+                
+                            </ul>
+                        </div>
+                
+                      
+                            <h3 class="post_subtitle">Обсуждение</h3>
+                            <form class="form" action="/" method="post">
+                                <div class="form_group">
+                                     <textarea data-autoresize class="form_control form_control--textarea" name="comment-text" placeholder="Текст комментария.."></textarea>
+                                    <span class="form_line"></span>
+                                </div>
+                                <button class="btn btn--blue btn--rounded btn--sm" type="submit">Отправить</button>
+                            </form>
+                       
+                            <ul class="comments">
+                
+                                <li class="comments_item">
+                                    <div class="comments_header">
+                                        <img class="comments_avatar"  src="https://lyricstranslate.com/files/styles/large/public/ozzy-osbourne--large-msg-135777139971.jpg?itok=Irx64X0u" alt="">
+                
+                                        <div class="comments_author">
+                                             <div class="comments_name">Оззи Осборн</div>
+                                            <time class="comments_pubdate" datetime="2021-12-21">1 неделю назад</time>
+                                        </div>
+                
+                                    </div>
+                                    <div class="comments_text">
+                                        На это ушло много времени, но я наконец-то выучил русский язык.
+                                    </div>
+                                    <button class="comments_reply" type="button">
+                                        Ответить
+                                    </button>
+                
+                                    <ul class="comments">
+                
+                                        <li class="comments_item">
+                                            <div class="comments_header">
+                                                <img class="comments_avatar"  src="https://lyricstranslate.com/files/styles/large/public/ozzy-osbourne--large-msg-135777139971.jpg?itok=Irx64X0u" alt="">
+                        
+                                                <div class="comments_author">
+                                                     <div class="comments_name">Оззи Осборн</div>
+                                                    <time class="comments_pubdate" datetime="2021-12-21">6 дней назад</time>
+                                                </div>
+                        
+                                            </div>
+                                            <div class="comments_text">
+                                                Или не совсем. В любом случае у меня есть мощнейший инструмент для интернациональной коммуникации - переводчик гугл.
+                                            </div>
+                                            <button class="comments_reply" type="button">
+                                                Ответить
+                                            </button>
+                                        </li>
+                        
+                                    </ul>
+                
+                                </li>
+                
+                            </ul>
+                
+                            <ul class="comments">
+                
+                                <li class="comments_item">
+                                    <div class="comments_header">
+                                        <img class="comments_avatar"  src="https://lyricstranslate.com/files/styles/large/public/ozzy-osbourne--large-msg-135777139971.jpg?itok=Irx64X0u" alt="">
+                
+                                        <div class="comments_author">
+                                             <div class="comments_name">Игорь Николаев</div>
+                                            <time class="comments_pubdate" datetime="2021-12-21">2 недели назад</time>
+                                        </div>
+                
+                                    </div>
+                                    <div class="comments_text">
+                                        ауф ребята первый на связи
+                                    </div>
+                                    <button class="comments_reply" type="button">
+                                        Ответить
+                                    </button>
+                                </li>
+                
+                            </ul>
+                
+                    </div>
+                
+                </article>
+            </div>
+        </main>
+    </div>
+
+    <div class="modal" id="story-modal">
+        <div class="modal_content modal_content--story">
+            <video class="modal_video" poster="https:/via.placeholder.com/420x580" src=""></video>
+        </div>
+    </div>    <div class="modal" id="contact_modal">
+        <div class="modal_content">
+    
+            <button type="button" class="modal_close">
+                <img src="/assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <form action="/" class="form" method="post">
+    
+                <div class="form_group form_group--md">
+                    <input type="text" class="form_control" placeholder="Ваше имя">
+                    <span class="form_line"></span>
+                </div>
+    
+                <div class="form_group form_group--md">
+                    <input type="email" class="form_control" placeholder="Ваш e-mail">
+                    <span class="form_line"></span>
+                </div>
+            
+                <div class="form_group form_group--md">
+                    <textarea class="form_control form_control--textarea" placeholder="Текст сообщения"></textarea>
+                    <span class="form_line"></span>
+                </div>
+            
+                <div class="form_footer">
+                    <div class="form_group form_group--md">
+                        <button class="btn btn--blue btn--rounded btn--sm">Отправить</button>
+                    </div>
+        
+                </div>
+    
+            </form>
+    
+            <ul class="modal_footer">
+                
+                <li>
+                    e-mail: <a href="mailto:pamixy@gmail.com">pamixy@gmail.com</a>
+                </li>
+                
+                <li>
+                    тел: <a href="tel:+375444963971">+375444963971</a>
+                </li>
+            </ul>
+    
+        </div>
+    </div>    <div class="modal">
+        <div class="modal_content modal_content--contact">
+    
+            <button type="button" class="modal_close">
+                <img src="/assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <ul class="social">
+    
+                <li class="social_item">
+                    <a href="" class="social_link">
+                        <img src="/assets/images/share/s1.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social_item">
+                    <a href="" class="social_link">
+                        <img src="/assets/images/share/s2.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social_item">
+                    <a href="" class="social_link">
+                        <img src="/assets/images/share/s3.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social_item">
+                    <a href="" class="social_link">
+                        <img src="/assets/images/share/s4.svg" alt="">
+                    </a>
+                </li>
+    
+            </ul>
+    
+        </div>
+    </div>
+
+
+    <!-- JS -->
+    <script src="../assets/js/app.js"></script>
+</body>
+
+</html>

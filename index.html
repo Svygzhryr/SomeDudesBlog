@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>The Blog</title>
+
+    
+</head>
+<body>
+
+    <div class="page">
+        <!-- Header -->
+        <header class="header">
+            <div class="header_left">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li  class="nav_item">
+                            <a class="nav_link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link has-subnav" href="">Статьи</a>
+        
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Создание сайтов
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Интернет-маркетинг
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Продвижение на видео
+                                    </a>
+                                </li>
+        
+                            </ul>
+        
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Реклама</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+                <button class="burger show-sidebar" id="sidebarToggle" type="button">
+                    <span>Открыть навигацию</span>
+                </button>
+        
+            </div>
+            <div class="header_right">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a class="nav_link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="">Выйти</a>
+                        </li>
+                    </ul>
+                </nav>
+                <form class="search" action="search.html" method="get">
+                    <input class="search_input" placeholder="Поиск по блогу" type="text">
+                </form>
+            </div>
+        </header>
+
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar_header">
+                <img src="/assets/images/sidebar_header.jpg" alt="">
+            </div>
+            <div class="sidebar_content">
+                <div class="profile">
+                    
+                    <img class="profile_avatar" src="/assets/images/profile_pic.jpg" alt="">
+        
+                    <div class="profile_header">
+                        <div class="profile_name">Павел Михайлов</div>
+                        <div class="profile_prof">блог ноунейма</div>
+                    </div>
+        
+                  
+        
+                    <ul class="social">
+                        <li class="social_item">
+                            <a class="social_link" href="#" target="_blank">
+                                <img src="/assets/images/instagram.svg">
+                            </a>
+                        </li>
+                        <li class="social_item">
+                            <a class="social_link" href="https://vk.com/uebox" target="_blank">
+                                <img src="/assets/images/vk.svg">
+                            </a>
+                        </li>
+                        <li class="social_item">
+                            <a class="social_link" href="#" target="_blank">
+                                <img src="/assets/images/pinterest.svg">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="profile_text">
+                        <p>
+                            Здесь должно было бы быть написано что-то безумно интересное и увлекательное, но так как на воображение я скуплюсь, то здесь будет какая-нибудь бессмыслица.
+                        </p>
+                    </div>
+                </div>
+        
+                <nav class="nav nav--mobile">
+                    <ul class="nav_list">
+                        <li  class="nav_item">
+                            <a class="nav_link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link has-subnav" href="">Статьи</a>
+        
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Создание сайтов
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Интернет-маркетинг
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="subnav_link" href="">
+                                        Продвижение на видео
+                                    </a>
+                                </li>
+        
+                            </ul>
+        
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Реклама</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="#">Выйти</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+            </div>
+            <div class="sidebar_footer">
+                <a href="works.html" class="btn btn--red">Мои работы</a>
+                <button class="btn btn--blue" data-modal="contact_modal">Написать мне</button>
+            </div>
+        
+        </aside>
+
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+                
+                <div class="stories" data-modal="story_modal">
+                    <div class="stories_item ">
+                        <img class="stories_preview" src="assets/images/stories/stories1.jpg" alt="">
+                        <div class="stories_title">Собачье сердце</div>
+                        <time class="stories_date" datetime="2021-09-21 19:21">21.09.2021</time>
+                    </div>
+                
+                    <div class="stories_item">
+                        <img class="stories_preview" src="assets/images/stories/stories2.jpg" alt="">
+                        <div class="stories_title">Почему тикток надо запретить?</div>
+                        <time class="stories_date" datetime="2021-09-21 19:21">31.08.2021</time>
+                    </div>
+                
+                    <div class="stories_item">
+                        <img class="stories_preview" src="assets/images/stories/stories3.jpg" alt="">
+                        <div class="stories_title">Переехал в новую квартиру</div>
+                        <time class="stories_date" datetime="2021-09-21 19:21">15.08.2021</time>
+                    </div>
+                
+                    <div class="stories_item">
+                        <img class="stories_preview" src="assets/images/stories/stories4.jpg" alt="">
+                        <div class="stories_title">Осень пришла!</div>
+                        <time class="stories_date" datetime="2021-09-21 19:21">7.08.2021</time>
+                    </div>
+                
+                </div>
+                
+                
+                
+                <div class="add-post">
+                    <form class="add-post_form" action="/" method="post">
+                        <textarea data-autoresize class="add-post_textarea" name="post-text" id="" cols="30" rows="10" placeholder="Напишите что-нибудь..."></textarea>
+                        <div class="add-post_form_actions">
+                            <label class="add-post_file" for="add-post-file">
+                                <input type="file" id="add-post-file">
+                             </label>
+                            <button class="add-post_send" type="submit">
+                                <img src="/assets/images/send.svg" alt="Отправить">
+                            </button>
+                        </div>
+                    </form>
+                </div>  
+                
+                
+                
+                <div class="post">
+                    <div class="post_content">
+                        <div class="post_description">
+                            Что вершит судьбу человечества в этом мире? Некое незримое существо или закон, подобно Длани Господней парящей над миром? По крайне мере истинно то, что человек не властен даже над своей волей.
+                        </div>
+                    </div>
+                    <div class="post_header"></div>
+                    <div class="post_footer">
+                        <ul class="post_data"><li class="post_data-item">
+                            <time datetime="2021-06-21">21.06.2021</time>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                
+                
+                
+                <article class="post">
+                    <div class="post_header post_header--preview">
+                        <a href="post2.html">
+                            <img class="post_preview" src="/assets/images/post2.jpg" alt="Как писать код быстро и безболезненно?">
+                        </a>
+                    </div>
+                    <div class="post_content">
+                        <h2 class="post_title">
+                            <a href="post2.html">Как писать код быстро и безболезненно?</a>
+                        </h2>
+                        <div class="post_description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac egestas nunc. Sed massa magna, dictum nec eros sed, tincidunt gravida mauris. Nulla porttitor felis risus, id rhoncus nibh volutpat sed. Quisque at sapien ligula. Quisque tellus leo, volutpat eget vestibulum suscipit, blandit at tellus. Phasellus dignissim varius turpis quis semper. Nulla nec dapibus enim. Sed eu cursus magna. In odio mauris, gravida non nisl sed, dapibus semper tortor. Duis dictum nec ex ut blandit. Ut auctor nunc id mi maximus, et tristique libero tincidunt.
+                        </div>
+                    </div>
+                    <div class="post_footer">
+                        <ul class="post_data"><li class="post_data-item">
+                            <time datetime="2021-06-21">21.06.2021</time>
+                        </li>
+                        <li class="post_data-item">
+                            <a href="" class="">создание сайтов</a>
+                        </li>
+                    </ul>
+                    <a class="post_read" href="post2.html">Читать</a>
+                    </div>
+                </article>
+                
+                
+                
+                <article class="post">
+                    <div class="post_header post_header--preview">
+                        <div class="embed">
+                            <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="post_content">
+                        <h2 class="post_title">
+                            <a href="#">Я в зоопарке</a>
+                        </h2>
+                
+                    </div>
+                    <div class="post_footer">
+                        <ul class="post_data"><li class="post_data-item">
+                            <time datetime="2021-06-21">21.06.2021</time>
+                        </li>
+                        <li class="post_data-item">
+                            <a href="" class="">продвижение видео</a>
+                        </li>
+                    </ul>
+                    <a class="post_read" href="">Оставить комментарий</a>
+                    </div>
+                </article>
+                
+                <article class="post">
+                    <div class="post_header post_header--preview">
+                        <a href="post.html">
+                            <img class="post_preview" src="/assets/images/post3.jpg" alt="Как писать код быстро и безболезненно?">
+                        </a>
+                    </div>
+                    <div class="post_content">
+                        <h2 class="post_title">
+                            <a href="post.html">Как я сходил на frontEnd conf 2021</a>
+                        </h2>
+                        <div class="post_description">
+                                Nullam a justo nulla. Pellentesque placerat interdum rhoncus. In non sagittis ante, nec rutrum nibh. Donec sagittis pharetra aliquam. Aenean lacinia enim nec dui lobortis tristique. Duis ullamcorper nisl gravida risus ullamcorper, non condimentum nisl tincidunt. Ut mollis volutpat turpis eu ullamcorper. Suspendisse potenti. Morbi fringilla leo nec dolor ultricies venenatis. Morbi quis odio ante. Proin ornare ex in nisi venenatis interdum.
+                        </div>
+                    </div>
+                    <div class="post_footer">
+                        <ul class="post_data"><li class="post_data-item">
+                            <time datetime="2021-06-21">21.06.2021</time>
+                        </li>
+                        <li class="post_data-item">
+                            <a href="" class="">конференция</a>
+                        </li>
+                    </ul>
+                    <a class="post_read" href="post.html">Читать</a>
+                    </div>
+                </article>
+                
+                
+                
+                <ul class="pagination">
+                    <li class="pagination_item">
+                        <a class="pagination_link" href="">&lt</a>
+                    </li>
+                    <li class="pagination_item">
+                        <a class="pagination_link" href="">1</a>
+                    </li>
+                    <li class="pagination_item">
+                        <a class="pagination_link active"  href="">2</a>
+                    </li>
+                    <li class="pagination_item">
+                        <a class="pagination_link" href="">3</a>
+                    </li>
+                    <li class="pagination_item">
+                        <a class="pagination_link" href="">&gt</a>
+                    </li>
+                
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <div class="modal" id="story-modal">
+        <div class="modal_content modal_content--story">
+            <video class="modal_video" poster="https:/via.placeholder.com/420x580" src=""></video>
+        </div>
+    </div>    <div class="modal" id="contact_modal">
+        <div class="modal_content">
+    
+            <button type="button" class="modal_close">
+                <img src="/assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <form action="/" class="form" method="post">
+    
+                <div class="form_group form_group--md">
+                    <input type="text" class="form_control" placeholder="Ваше имя">
+                    <span class="form_line"></span>
+                </div>
+    
+                <div class="form_group form_group--md">
+                    <input type="email" class="form_control" placeholder="Ваш e-mail">
+                    <span class="form_line"></span>
+                </div>
+            
+                <div class="form_group form_group--md">
+                    <textarea class="form_control form_control--textarea" placeholder="Текст сообщения"></textarea>
+                    <span class="form_line"></span>
+                </div>
+            
+                <div class="form_footer">
+                    <div class="form_group form_group--md">
+                        <button class="btn btn--blue btn--rounded btn--sm">Отправить</button>
+                    </div>
+        
+                </div>
+    
+            </form>
+    
+            <ul class="modal_footer">
+                
+                <li>
+                    e-mail: <a href="mailto:pamixy@gmail.com">pamixy@gmail.com</a>
+                </li>
+                
+                <li>
+                    тел: <a href="tel:+375444963971">+375444963971</a>
+                </li>
+            </ul>
+    
+        </div>
+    </div>    <div class="modal">
+        <div class="modal_content modal_content--contact">
+    
+            <button type="button" class="modal_close">
+                <img src="/assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <ul class="social">
+    
+                <li class="social_item">
+                    <a href="" class="social_link">
+                        <img src="/assets/images/share/s1.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social_item">
+                    <a href="" class="social_link">
+                        <img src="/assets/images/share/s2.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social_item">
+                    <a href="" class="social_link">
+                        <img src="/assets/images/share/s3.svg" alt="">
+                    </a>
+                </li>
+    
+                <li class="social_item">
+                    <a href="" class="social_link">
+                        <img src="/assets/images/share/s4.svg" alt="">
+                    </a>
+                </li>
+    
+            </ul>
+    
+        </div>
+    </div>
+
+
+    <!-- JS -->
+    <script src="../dist/assets/js/mobile-nav.js"></script>
+    <script src="../dist/assets/js/modal.js"></script>
+    <script src="../dist/assets/js/textarea.js"></script>
+
+
+</body>
+
+</html>
