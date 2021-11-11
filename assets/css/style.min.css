@@ -828,7 +828,7 @@ a:hover {
 }
 
 .add-post_file {
-  background: #ebebeb url("/assets/images/add-photo.svg") center no-repeat;
+  background: #ebebeb url("./assets/images/add-photo.svg") center no-repeat;
 }
 .add-post_file input {
   display: none;
@@ -838,7 +838,7 @@ a:hover {
 }
 
 .add-post_send {
-  background: #3137c9 url("/assets/images/send.svg") center no-repeat;
+  background: #3137c9 url("./assets/images/send.svg") center no-repeat;
   margin-left: 1.5rem;
 }
 .add-post_send:hover {
@@ -1379,7 +1379,7 @@ a:hover {
   position: relative;
   transform: translateY(-50px);
   transition: transform 200ms ease-in-out, opacity 200ms ease-in-out;
-  opacity: 0;
+  opacity: 1;
 }
 .modal_content--contact {
   padding-bottom: 8rem;
