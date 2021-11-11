@@ -829,6 +829,9 @@ a:hover {
 
 .add-post_file {
   background: #ebebeb url("assets/images/add-photo.svg") center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .add-post_file input {
   display: none;
